@@ -13,7 +13,7 @@ class MateriaSeeder extends Seeder
      */
     public function run(): void
     {
-        Alumno::create([
+        Materia::create([
             'nombre'          => 'Inglés',
             'semestre'        => 5,
             'especialidad'    => 'Programación',
